@@ -1,0 +1,98 @@
+.navbar {
+    display: flex;
+    justify-content:space-between ;
+    padding: 20PX;
+}
+.navmenu{
+    display: flex;
+    column-gap: 70px;
+    list-style: none;
+} 
+body{
+    background-color: red;
+}
+
+.info{
+    display: flex;
+    list-style: none;
+}
+.homepage{
+  display: flex;
+  min-height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.profile-image{
+    width: 50%;
+}
+img{
+    height: 600px;
+}
+form{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 750px;
+    padding-top: 60px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.copy{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.info{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.skills{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+}
+
+.skill{
+    background-color: white;
+    color: black;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.project{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+.projectimage {
+    display: block;
+    width: 600px;
+    min-height: auto;
+
+}
+.projectdesp {
+    padding: 60px 80px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.projectname{
+    font-size: 32px;
+}
